@@ -40,7 +40,21 @@ public class Main {
 
         }
 
-        System.out.println(lines);
+        String[] lineSplit;
+
+        for (String line : lines){
+
+            if(Character.isDigit(line.charAt(line.length()-1))){//checks if last character is a digit to know if line is label line
+
+                System.out.println(line);
+
+                //lineSplit=line.split(",");
+            }
+
+
+
+        }
+
 
 
         return null;
