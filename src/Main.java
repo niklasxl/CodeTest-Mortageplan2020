@@ -32,6 +32,7 @@ public class Main {
                     lines.add(st);
                 }
             }
+            br.close();
 
 
         }catch (IOException e){
